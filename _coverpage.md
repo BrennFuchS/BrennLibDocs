@@ -1,2 +1,2 @@
 # BrennLib Documentation
-[Getting Started](pages/GettingStarted.md)
+[Getting Started](GettingStarted.md)
