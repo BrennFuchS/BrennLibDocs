@@ -1,1 +1,86 @@
-hello world!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BrennLib Docs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Documentation for BrennLib">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages">
+  <meta name="description" content="A magical documentation generator.">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link 
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    title="docsify-darklight-theme"
+    type="text/css"
+  />
+  <link rel="stylesheet" href="css/prism.css"/>
+</head>
+<body>
+  <div id="app">We are building the Website for you ...</div>
+  <script>
+    window.$docsify = {
+      footer: {
+      copy: '<span>BrennLib Docs &copy; 2022</span>',
+      auth: 'by BrennFuchS',
+      pre: '<hr/>',
+      style: 'text-align: center;',
+      class: 'foo',
+    },
+      loadSidebar: true,
+      search: 'auto',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      coverpage: true,
+      name: 'BrennLib Docs',
+      search: {
+        noData: {
+          '/': 'No results!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': 'Search'
+        }
+      },
+      plugins: [],
+      darklightTheme: {
+        siteFont : "PT Sans",
+        defaultTheme : 'dark',
+        codeFontFamily : 'Roboto Mono, Monaco, courier, monospace',
+        bodyFontSize : '17px',
+        dark: {
+          textColor: '#b4b4b4',
+          codeTextColor : '#cccccc',
+          codeBackgroundColor : '#1E1E1E',
+          codeTypeColor : '#ffffff',
+          blockQuoteColour : '#858585',
+          coverBackground : 'linear-gradient(to bottom, hsl(118, 100%, 15%) 0%,hsl(181, 100%, 15%) 100%)'
+        },
+        light: {
+          textColor: '#34495e',
+          codeTextColor : '#cccccc',
+          codeBackgroundColor : '#1E1E1E',
+          codeTypeColor : '#ffffff',
+          blockQuoteColor : '#858585',
+          highlightColor : '#d22778',
+          coverBackground : 'linear-gradient(to bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)'
+        }
+      }
+    }
+  </script>
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script 
+    src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+    type="text/javascript">
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-csharp.js"></script>
+  <script src="https://unpkg.com/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-batch.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+</body>
+</html>
